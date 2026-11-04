@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Cognifyz | My Portfolio</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header>
+        <nav class="navbar">
+
+            <h2 class="logo">Portfolio<span>.</span></h2>
+
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#javascript">JavaScript</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+
+        </nav>
+    </header>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+
+        <div class="hero-content">
+
+            <p class="welcome">WELCOME TO MY PORTFOLIO</p>
+
+            <h1>
+                Hello, I'm a
+                <span>Creative Developer.</span>
+            </h1>
+
+            <p class="description">
+                A Computer Science student passionate about
+                technology, web development and creating
+                beautiful digital experiences.
+            </p>
+
+            <a href="#about" class="btn">Explore More</a>
+
+        </div>
+
+        <div class="hero-image">
+
+            <img src="images/image cog.jpg"
+                 alt="Web Development Workspace">
+
+        </div>
+
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about section">
+
+        <p class="section-label">GET TO KNOW ME</p>
+
+        <h2>About <span>Me</span></h2>
+
+        <div class="about-card">
+
+            <h3>Passionate About Technology</h3>
+
+            <p>
+                I am a Computer Science student interested in
+                programming, web development and modern technologies.
+
+                I enjoy learning new skills, solving problems
+                and transforming creative ideas into reality.
+            </p>
+
+            <div class="skills">
+
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JavaScript</span>
+                <span>Web Design</span>
+                <span>Programming</span>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- JavaScript Section -->
+    <section id="javascript" class="javascript-section section">
+
+        <p class="section-label">INTERACTIVE EXPERIENCE</p>
+
+        <h2>JavaScript <span>Playground</span></h2>
+
+        <p class="js-description">
+            Explore interactive features powered by JavaScript.
+        </p>
+
+        <div class="js-container">
+
+            <!-- Task 1: Color Changing Button -->
+            <div class="js-card">
+
+                <div class="number">01</div>
+
+                <h3>Color Changer</h3>
+
+                <p>
+                    Click the button to change its background color.
+                </p>
+
+                <button id="colorButton">
+                    Change My Color
+                </button>
+
+            </div>
+
+            <!-- Task 2: Greeting Alert -->
+            <div class="js-card">
+
+                <div class="number">02</div>
+
+                <h3>Greeting Message</h3>
+
+                <p>
+                    Receive a greeting based on your current time.
+                </p>
+
+                <button id="greetingButton">
+                    Show Greeting
+                </button>
+
+            </div>
+
+            <!-- Task 3: Calculator -->
+            <div class="js-card">
+
+                <div class="number">03</div>
+
+                <h3>Addition Calculator</h3>
+
+                <p>
+                    Enter two numbers and calculate their sum.
+                </p>
+
+                <input
+                    type="number"
+                    id="num1"
+                    placeholder="First Number"
+                >
+
+                <input
+                    type="number"
+                    id="num2"
+                    placeholder="Second Number"
+                >
+
+                <button id="calculateButton">
+                    Calculate Sum
+                </button>
+
+                <h3 id="result">Result: 0</h3>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact section">
+
+        <p class="section-label">LET'S CONNECT</p>
+
+        <h2>Get In <span>Touch</span></h2>
+
+        <p class="contact-description">
+            Have an idea or want to connect? Send me a message!
+        </p>
+
+        <form class="contact-form" id="contactForm">
+
+            <input
+                type="text"
+                id="contactName"
+                placeholder="Enter your name"
+                required
+            >
+
+            <button type="submit">
+                Send Message →
+            </button>
+
+        </form>
+
+        <p id="contactMessage"></p>
+
+    </section>
+
+    <!-- Footer -->
+    <footer>
+
+        <p>
+            © 2026 My Portfolio.
+            Designed with passion.
+        </p>
+
+        <p>Cognifyz Technologies Internship</p>
+
+    </footer>
+
+    <!-- JavaScript File -->
+    <script src="script.js"></script>
+
+</body>
+
+</html>
